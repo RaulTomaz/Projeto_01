@@ -93,7 +93,7 @@ public class JurosSimples extends HttpServlet {
             }
             catch(Exception e)
             {
-               out.println("<span><h2 style= 'color = 'red';'>erro! Digite apenas números</h2></span>");
+               out.println("<span><h2 style= 'color:red'>erro! Digite apenas números</h2></span>");
             }                 
             
             out.println("</div>");
