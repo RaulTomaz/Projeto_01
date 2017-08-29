@@ -87,8 +87,8 @@ public class JurosComposto extends HttpServlet {
             //Criando div e formulário para entrada de dados
             out.println("<div id = 'center'>");
             out.println("<form name= 'frmComp' method= 'POST' value=''/>");            
-            out.println("Capital inicial: <input type='text' name= 'txtCapital' value= '0'/>");
-            out.println("Tempo total: <input type='text' name= 'txtTempo' value= '0'/> meses");             
+            out.println("Capital inicial: <input type='text' name= 'txtCapital' placeholder='Digite o capital inicial'/>");
+            out.println("Tempo total: <input type='text' name= 'txtTempo' placeholder='Digite o tempo total'/> meses");             
             out.println("<br><br>");
             out.println("<div id= 'center-2'>");
             out.println("Taxa proporcional: <select name='cmbTaxa'>"
@@ -99,7 +99,7 @@ public class JurosComposto extends HttpServlet {
                     + "<option value= 'aoTri'>ao trimestre</option>"
                     + "<option value= 'aoSe'>ao semestre</option>"
                     + "</select>"); 
-            out.println("Taxa de juros: <input type='text' name= 'txtTaxa' value= '0' size= '21'/> %");
+            out.println("Taxa de juros: <input type='text' name= 'txtTaxa' placeholder='Digite taxa de juros' size= '21'/> %");
             out.println("</div>");
             out.println("<br>");
             out.println("<input type= 'submit' name= 'btnCalcular' value= 'Calcular'/>");
