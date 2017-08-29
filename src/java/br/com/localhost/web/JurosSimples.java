@@ -64,11 +64,11 @@ public class JurosSimples extends HttpServlet {
            
             //início do form
             out.println("<form>");
-            out.println("<CENTER>Capital Social: <div><input type='text' step=\'0.01\' name='valcapital' value = '0'><BR></div></CENTER>");
+            out.println("<CENTER>Capital Social: <div><input type='text' step=\'0.01\' name='valcapital' placeholder='Digite o capital inicial'><BR></div></CENTER>");
             out.println("<p></p>");
-            out.println("<CENTER>Taxa de Juros <div><input type='text' step=\'0.01\' name='valtaxa' value = '0'><BR></div><CENTER>");
+            out.println("<CENTER>Taxa de Juros <div><input type='text' step=\'0.01\' name='valtaxa' placeholder='Digite taxa de juros'><BR></div><CENTER>");
             out.println("<p></p>");
-            out.println("<CENTER>Tempo de parcela: <div><input type='text' step=\'0.01\' name='valtempo' value = '0'><BR></div><CENTER>");
+            out.println("<CENTER>Tempo de parcela: <div><input type='text' step=\'0.01\' name='valtempo' placeholder='Digite tempo de parcela'><BR></div><CENTER>");
             out.println("<CENTER><p><div><input type='submit' value='Enviar'><BR></div></p><CENTER>");
             
             
